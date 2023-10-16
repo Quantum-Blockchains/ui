@@ -18,6 +18,11 @@ export const CRYPTOS: Option[] = [
     info: 'ecdsa',
     text: 'ECDSA (Non BTC/ETH compatible)',
     value: 'ecdsa'
+  },
+  {
+    info: 'dilithium2',
+    text: 'Dilithium2 (development)',
+    value: 'dilithium2'
   }
 ];
 
