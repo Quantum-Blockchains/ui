@@ -3,7 +3,7 @@
 mkdir tmp && cd tmp
 git clone https://github.com/Quantum-Blockchains/common.git
 cd common
-git checkout kostia/v12.3.2
+git checkout kostia/modification_dilithium
 yarn install
 yarn build
 
