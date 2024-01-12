@@ -23,9 +23,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "polkadot-dev-build-ts",
+    "build": "./scripts/build.sh",
     "build:release": "polkadot-ci-ghact-build",
     "build:rollup": "polkadot-exec-rollup --config",
+    "build:ui": "polkadot-dev-build-ts",
     "clean": "polkadot-dev-clean-build",
     "lint": "polkadot-dev-run-lint",
     "postinstall": "polkadot-dev-yarn-only",

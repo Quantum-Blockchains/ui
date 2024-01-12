@@ -23,6 +23,11 @@ export const CRYPTOS: Option[] = [
     info: 'dilithium2',
     text: 'Dilithium2 (development)',
     value: 'dilithium2'
+  },
+  {
+    info: 'dilithium2',
+    text: 'Dilithium2 (development)',
+    value: 'dilithium2'
   }
 ];
 
