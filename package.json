@@ -20,9 +20,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "polkadot-dev-build-ts",
+    "build": "./scripts/build.sh",
     "build:release": "polkadot-ci-ghact-build",
     "build:rollup": "polkadot-exec-rollup --config",
+    "build:ui": "polkadot-dev-build-ts",
     "clean": "polkadot-dev-clean-build",
     "example:react": "yarn build && cd packages/example-react && yarn polkadot-exec-webpack --config webpack.config.cjs",
     "example:vue": "yarn build && cd packages/example-vue && yarn polkadot-exec-webpack --config webpack.config.cjs",
